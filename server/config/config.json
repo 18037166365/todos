@@ -1,0 +1,16 @@
+{
+  "development_bak": {
+    "username": "root",
+    "password": "zzzzzz",
+    "database": "todos",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "development": {
+    "username": "root",
+    "password": "Pxb6229855",
+    "database": "todos",
+    "host": "122.51.29.165",
+    "dialect": "mysql"
+  }
+}

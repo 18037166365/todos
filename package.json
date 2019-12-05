@@ -1,0 +1,39 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron .",
+    "build": "electron-builder -w",
+    "buildmac": "electron-builder --mac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.3"
+  },
+  "build": {
+    "appId": "com.peien.app",
+    "productName": "todos",
+    "directories": {
+      "output": "./dist"
+    },
+    "mac": {
+      "icon": "./source/logo.png",
+      "target": [
+        "dmg",
+        "pkg"
+      ]
+    },
+    "win": {
+      "icon": "./source/logo.png"
+    }
+  }
+}

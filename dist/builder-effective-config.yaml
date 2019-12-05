@@ -1,0 +1,13 @@
+directories:
+  output: ./dist
+  buildResources: build
+appId: com.peien.app
+productName: todos
+mac:
+  icon: ./source/logo.png
+  target:
+    - dmg
+    - pkg
+win:
+  icon: ./source/logo.png
+electronVersion: 2.0.8
